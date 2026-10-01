@@ -1,4 +1,6 @@
-# Research summary
+# English research summary
+
+> This is an English-language summary of the full analytical report. The [original report](../reports/original_report_ru.pdf) is written in Russian.
 
 ## Scope
 
