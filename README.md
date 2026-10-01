@@ -6,6 +6,12 @@ Econometric study of daily returns, conditional volatility, and downside risk fo
 **Methods:** ADF · ACF/PACF · Ljung-Box · ARMA · ARCH-LM · GARCH/EGARCH · Student-t innovations · VaR · Kupiec/Christoffersen backtests  
 **Stack:** Python · pandas · NumPy · SciPy · statsmodels · arch · matplotlib
 
+
+## Research report
+
+- **[Original analytical report (Russian, PDF)](reports/original_report_ru.pdf)** — the full coursework paper submitted for the HSE MSc programme *Investments in Financial Markets*. The report is written in Russian.
+- **[English research summary](docs/report_summary.md)** — a concise English-language overview of the research question, methodology, selected models, main findings, and comparability caveats.
+
 ## Research questions
 
 1. Are price levels non-stationary while log-returns are stationary?
@@ -40,6 +46,8 @@ For T-Bank, EGARCH(1,1)-t improves AIC/BIC relative to symmetric GARCH(1,1)-t, a
 │   └── raw/                  # raw Finam exports (not tracked)
 ├── docs/
 │   └── report_summary.md
+├── reports/
+│   └── original_report_ru.pdf
 ├── notebooks/
 │   └── 01_bank_volatility_analysis.ipynb
 ├── results/
