@@ -1,0 +1,6 @@
+asset,mean_model,volatility_model,distribution,notes
+SBER,"ARMA(2,4)","GARCH(1,1)",Student-t,"High persistence; selected after residual diagnostics"
+VTBR,"ARMA(3,3)","GARCH(1,1)",Student-t,"Higher persistence and stress volatility"
+T,"ARMA(1,1)","EGARCH(1,1)",Student-t,"Negative significant asymmetry / leverage effect"
+SVCB,"ARMA(0,0)","GARCH(1,1)",Student-t,"Mean close to white noise; volatility clustering remains"
+MOEXFN,"ARMA(2,5)","GARCH(1,1)",Student-t,"Lowest average volatility profile"
